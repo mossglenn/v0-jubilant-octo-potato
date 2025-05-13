@@ -1,5 +1,5 @@
 {
-  "name": "next-tailwind-starter",
+  "name": "amosglenn-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "test": "jest",
     "prepare": "husky install",
-    "lint:fix": "eslint --fix . && prettier --write ."
+    "lint:fix": "eslint --fix . && prettier --write .",
+    "report": "node _scripts/generate-project-info.js"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.2",
